@@ -6,6 +6,14 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import AVFoundation
+import AVKit
+import Messages
+import FirebaseMessaging
+import UserNotifications
+import StoreKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -13,11 +21,37 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        
+        let windows = UIWindow(windowScene: scene as! UIWindowScene)
+        self.window = windows
+        windows.makeKeyAndVisible()
+        let sb = UIStoryboard(name: "Main", bundle: Bundle.main)
+
+        let ref = Database.database().reference().child("admin").child("setting").child("maintenance")
+        ref.observeSingleEvent(of: .value, with: { (snapshot) in
+            let value = snapshot.value as? NSDictionary
+            let key = value?["flag"] as? String ?? ""
+            if key == "1"{
+                let vc = sb.instantiateViewController(withIdentifier: "maintenanceView")
+                self.window!.rootViewController = vc
+            }
+        })
+
+        if Auth.auth().currentUser == nil {
+            let vc = sb.instantiateViewController(withIdentifier: "topView")
+            window!.rootViewController = vc
+        } else {
+
+            UIApplication.shared.applicationIconBadgeNumber = 0
+
+            let vc = sb.instantiateViewController(withIdentifier: "rootHomeView")
+            self.window!.rootViewController = vc
+            
+
+        }
+        
     }
+
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
@@ -49,4 +83,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-

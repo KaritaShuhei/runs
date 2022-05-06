@@ -7,15 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9BA0D9374E4AA97C61ACA8A /* Pods_RUNSAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D01FA04A88B8797C3F9EE13 /* Pods_RUNSAPP.framework */; };
+		AF17FE572817B6AC00261AA8 /* CoachingPlan0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17FE562817B6AC00261AA8 /* CoachingPlan0ViewController.swift */; };
 		AF598DCF2816968500DA3589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598DCE2816968500DA3589 /* AppDelegate.swift */; };
 		AF598DD12816968500DA3589 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598DD02816968500DA3589 /* SceneDelegate.swift */; };
 		AF598DD32816968500DA3589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598DD22816968500DA3589 /* ViewController.swift */; };
-		AF598DD62816968500DA3589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF598DD42816968500DA3589 /* Main.storyboard */; };
-		AF598DD82816968600DA3589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF598DD72816968600DA3589 /* Assets.xcassets */; };
-		AF598DDB2816968600DA3589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF598DD92816968600DA3589 /* LaunchScreen.storyboard */; };
 		AF598DE62816968600DA3589 /* RUNSAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598DE52816968600DA3589 /* RUNSAPPTests.swift */; };
 		AF598DF02816968600DA3589 /* RUNSAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598DEF2816968600DA3589 /* RUNSAPPUITests.swift */; };
 		AF598DF22816968600DA3589 /* RUNSAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598DF12816968600DA3589 /* RUNSAPPUITestsLaunchTests.swift */; };
+		AF598E26281696AB00DA3589 /* ApplyListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E00281696AA00DA3589 /* ApplyListTableViewCell.swift */; };
+		AF598E27281696AB00DA3589 /* ApplyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E01281696AA00DA3589 /* ApplyListViewController.swift */; };
+		AF598E28281696AB00DA3589 /* SelectedApplyListEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E02281696AA00DA3589 /* SelectedApplyListEditViewController.swift */; };
+		AF598E29281696AB00DA3589 /* SelectedApplyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E03281696AA00DA3589 /* SelectedApplyListViewController.swift */; };
+		AF598E2A281696AB00DA3589 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E05281696AA00DA3589 /* ResultViewController.swift */; };
+		AF598E2B281696AB00DA3589 /* ApplyFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E06281696AA00DA3589 /* ApplyFormViewController.swift */; };
+		AF598E2C281696AB00DA3589 /* MemberRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E08281696AA00DA3589 /* MemberRegistViewController.swift */; };
+		AF598E2D281696AB00DA3589 /* MemberAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E09281696AA00DA3589 /* MemberAuthViewController.swift */; };
+		AF598E2E281696AB00DA3589 /* RootHome1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E0B281696AA00DA3589 /* RootHome1ViewController.swift */; };
+		AF598E2F281696AB00DA3589 /* RootHome0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E0C281696AA00DA3589 /* RootHome0ViewController.swift */; };
+		AF598E30281696AB00DA3589 /* ApplyUserRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E0E281696AA00DA3589 /* ApplyUserRuleViewController.swift */; };
+		AF598E31281696AB00DA3589 /* CoachingPlan2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E0F281696AA00DA3589 /* CoachingPlan2ViewController.swift */; };
+		AF598E32281696AB00DA3589 /* ApplyRootTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E10281696AA00DA3589 /* ApplyRootTopViewController.swift */; };
+		AF598E33281696AB00DA3589 /* ApplyTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E11281696AA00DA3589 /* ApplyTopViewController.swift */; };
+		AF598E34281696AB00DA3589 /* CoachingPlan1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E12281696AA00DA3589 /* CoachingPlan1ViewController.swift */; };
+		AF598E35281696AB00DA3589 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E14281696AB00DA3589 /* MenuTableViewCell.swift */; };
+		AF598E36281696AB00DA3589 /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E15281696AB00DA3589 /* ProfileEditViewController.swift */; };
+		AF598E37281696AB00DA3589 /* AppRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E16281696AB00DA3589 /* AppRuleViewController.swift */; };
+		AF598E38281696AB00DA3589 /* MeetingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E17281696AB00DA3589 /* MeetingInfoViewController.swift */; };
+		AF598E39281696AB00DA3589 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E18281696AB00DA3589 /* ProfileViewController.swift */; };
+		AF598E3A281696AB00DA3589 /* CoachListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E19281696AB00DA3589 /* CoachListTableViewCell.swift */; };
+		AF598E3B281696AB00DA3589 /* CoachListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E1A281696AB00DA3589 /* CoachListViewController.swift */; };
+		AF598E3C281696AB00DA3589 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E1B281696AB00DA3589 /* MenuViewController.swift */; };
+		AF598E3D281696AB00DA3589 /* MeetingInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E1C281696AB00DA3589 /* MeetingInfoTableViewCell.swift */; };
+		AF598E3E281696AB00DA3589 /* ChatFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E1E281696AB00DA3589 /* ChatFormViewController.swift */; };
+		AF598E3F281696AB00DA3589 /* ChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E1F281696AB00DA3589 /* ChatListTableViewCell.swift */; };
+		AF598E40281696AB00DA3589 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E20281696AB00DA3589 /* ChatListViewController.swift */; };
+		AF598E41281696AB00DA3589 /* ChatInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E21281696AB00DA3589 /* ChatInputAccessoryView.swift */; };
+		AF598E43281696AB00DA3589 /* SelectedChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E23281696AB00DA3589 /* SelectedChatListTableViewCell.swift */; };
+		AF598E44281696AB00DA3589 /* SelectedChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF598E24281696AB00DA3589 /* SelectedChatListViewController.swift */; };
+		AF9E8B942817B18A00D22ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF598DD42816968500DA3589 /* Main.storyboard */; };
+		AF9E8B952817B18A00D22ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF598DD72816968600DA3589 /* Assets.xcassets */; };
+		AF9E8B962817B18A00D22ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF598DD92816968600DA3589 /* LaunchScreen.storyboard */; };
+		AF9E8B972817B18A00D22ED3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF9E8B862817AF7800D22ED3 /* GoogleService-Info.plist */; };
+		AF9E8B982817B18A00D22ED3 /* RatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF598DFF281696AA00DA3589 /* RatingViewController.xib */; };
+		AF9E8B992817B18A00D22ED3 /* ChatInputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF598E22281696AB00DA3589 /* ChatInputAccessoryView.xib */; };
+		AFB3AC912816AA3C003E2969 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB3AC902816AA3C003E2969 /* RatingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +72,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D01FA04A88B8797C3F9EE13 /* Pods_RUNSAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RUNSAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0B4FA03D72FBD0A552FF29 /* Pods-RUNSAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUNSAPP.debug.xcconfig"; path = "Target Support Files/Pods-RUNSAPP/Pods-RUNSAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		6436BF8281202FDC4409555D /* Pods-RUNSAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUNSAPP.release.xcconfig"; path = "Target Support Files/Pods-RUNSAPP/Pods-RUNSAPP.release.xcconfig"; sourceTree = "<group>"; };
+		AF17FE562817B6AC00261AA8 /* CoachingPlan0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingPlan0ViewController.swift; sourceTree = "<group>"; };
 		AF598DCB2816968500DA3589 /* RUNSAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUNSAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF598DCE2816968500DA3589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF598DD02816968500DA3589 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,12 +83,47 @@
 		AF598DD52816968500DA3589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF598DD72816968600DA3589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF598DDA2816968600DA3589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AF598DDC2816968600DA3589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF598DE12816968600DA3589 /* RUNSAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUNSAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF598DE52816968600DA3589 /* RUNSAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUNSAPPTests.swift; sourceTree = "<group>"; };
 		AF598DEB2816968600DA3589 /* RUNSAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUNSAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF598DEF2816968600DA3589 /* RUNSAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUNSAPPUITests.swift; sourceTree = "<group>"; };
 		AF598DF12816968600DA3589 /* RUNSAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUNSAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF598DFF281696AA00DA3589 /* RatingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingViewController.xib; sourceTree = "<group>"; };
+		AF598E00281696AA00DA3589 /* ApplyListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyListTableViewCell.swift; sourceTree = "<group>"; };
+		AF598E01281696AA00DA3589 /* ApplyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyListViewController.swift; sourceTree = "<group>"; };
+		AF598E02281696AA00DA3589 /* SelectedApplyListEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedApplyListEditViewController.swift; sourceTree = "<group>"; };
+		AF598E03281696AA00DA3589 /* SelectedApplyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedApplyListViewController.swift; sourceTree = "<group>"; };
+		AF598E05281696AA00DA3589 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		AF598E06281696AA00DA3589 /* ApplyFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyFormViewController.swift; sourceTree = "<group>"; };
+		AF598E08281696AA00DA3589 /* MemberRegistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberRegistViewController.swift; sourceTree = "<group>"; };
+		AF598E09281696AA00DA3589 /* MemberAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberAuthViewController.swift; sourceTree = "<group>"; };
+		AF598E0B281696AA00DA3589 /* RootHome1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootHome1ViewController.swift; sourceTree = "<group>"; };
+		AF598E0C281696AA00DA3589 /* RootHome0ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootHome0ViewController.swift; sourceTree = "<group>"; };
+		AF598E0E281696AA00DA3589 /* ApplyUserRuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyUserRuleViewController.swift; sourceTree = "<group>"; };
+		AF598E0F281696AA00DA3589 /* CoachingPlan2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachingPlan2ViewController.swift; sourceTree = "<group>"; };
+		AF598E10281696AA00DA3589 /* ApplyRootTopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyRootTopViewController.swift; sourceTree = "<group>"; };
+		AF598E11281696AA00DA3589 /* ApplyTopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyTopViewController.swift; sourceTree = "<group>"; };
+		AF598E12281696AA00DA3589 /* CoachingPlan1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachingPlan1ViewController.swift; sourceTree = "<group>"; };
+		AF598E14281696AB00DA3589 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		AF598E15281696AB00DA3589 /* ProfileEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
+		AF598E16281696AB00DA3589 /* AppRuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRuleViewController.swift; sourceTree = "<group>"; };
+		AF598E17281696AB00DA3589 /* MeetingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingInfoViewController.swift; sourceTree = "<group>"; };
+		AF598E18281696AB00DA3589 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AF598E19281696AB00DA3589 /* CoachListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachListTableViewCell.swift; sourceTree = "<group>"; };
+		AF598E1A281696AB00DA3589 /* CoachListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachListViewController.swift; sourceTree = "<group>"; };
+		AF598E1B281696AB00DA3589 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		AF598E1C281696AB00DA3589 /* MeetingInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingInfoTableViewCell.swift; sourceTree = "<group>"; };
+		AF598E1E281696AB00DA3589 /* ChatFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatFormViewController.swift; sourceTree = "<group>"; };
+		AF598E1F281696AB00DA3589 /* ChatListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListTableViewCell.swift; sourceTree = "<group>"; };
+		AF598E20281696AB00DA3589 /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		AF598E21281696AB00DA3589 /* ChatInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputAccessoryView.swift; sourceTree = "<group>"; };
+		AF598E22281696AB00DA3589 /* ChatInputAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatInputAccessoryView.xib; sourceTree = "<group>"; };
+		AF598E23281696AB00DA3589 /* SelectedChatListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedChatListTableViewCell.swift; sourceTree = "<group>"; };
+		AF598E24281696AB00DA3589 /* SelectedChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedChatListViewController.swift; sourceTree = "<group>"; };
+		AF9E8B832817ADD700D22ED3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../../../.Trash/Info.plist; sourceTree = "<group>"; };
+		AF9E8B862817AF7800D22ED3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFB3AC902816AA3C003E2969 /* RatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		AFF747372817C381007CF604 /* RUNSAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RUNSAPP.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BA0D9374E4AA97C61ACA8A /* Pods_RUNSAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +152,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		446ECE0CB54491C66C2210D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C0B4FA03D72FBD0A552FF29 /* Pods-RUNSAPP.debug.xcconfig */,
+				6436BF8281202FDC4409555D /* Pods-RUNSAPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8ADF33BA6642B5D863CA6A87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D01FA04A88B8797C3F9EE13 /* Pods_RUNSAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF598DC22816968500DA3589 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +176,8 @@
 				AF598DE42816968600DA3589 /* RUNSAPPTests */,
 				AF598DEE2816968600DA3589 /* RUNSAPPUITests */,
 				AF598DCC2816968500DA3589 /* Products */,
+				446ECE0CB54491C66C2210D0 /* Pods */,
+				8ADF33BA6642B5D863CA6A87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +194,21 @@
 		AF598DCD2816968500DA3589 /* RUNSAPP */ = {
 			isa = PBXGroup;
 			children = (
+				AFF747372817C381007CF604 /* RUNSAPP.entitlements */,
 				AF598DCE2816968500DA3589 /* AppDelegate.swift */,
 				AF598DD02816968500DA3589 /* SceneDelegate.swift */,
 				AF598DD22816968500DA3589 /* ViewController.swift */,
 				AF598DD42816968500DA3589 /* Main.storyboard */,
 				AF598DD72816968600DA3589 /* Assets.xcassets */,
 				AF598DD92816968600DA3589 /* LaunchScreen.storyboard */,
-				AF598DDC2816968600DA3589 /* Info.plist */,
+				AF9E8B832817ADD700D22ED3 /* Info.plist */,
+				AF9E8B862817AF7800D22ED3 /* GoogleService-Info.plist */,
+				AF598E07281696AA00DA3589 /* Auth */,
+				AF598E0A281696AA00DA3589 /* RootHome */,
+				AF598E0D281696AA00DA3589 /* ApplyTop */,
+				AF598DFE281696AA00DA3589 /* Apply */,
+				AF598E1D281696AB00DA3589 /* Chat */,
+				AF598E13281696AB00DA3589 /* SideView */,
 			);
 			path = RUNSAPP;
 			sourceTree = "<group>";
@@ -127,6 +230,82 @@
 			path = RUNSAPPUITests;
 			sourceTree = "<group>";
 		};
+		AF598DFE281696AA00DA3589 /* Apply */ = {
+			isa = PBXGroup;
+			children = (
+				AF598DFF281696AA00DA3589 /* RatingViewController.xib */,
+				AFB3AC902816AA3C003E2969 /* RatingViewController.swift */,
+				AF598E00281696AA00DA3589 /* ApplyListTableViewCell.swift */,
+				AF598E01281696AA00DA3589 /* ApplyListViewController.swift */,
+				AF598E03281696AA00DA3589 /* SelectedApplyListViewController.swift */,
+				AF598E02281696AA00DA3589 /* SelectedApplyListEditViewController.swift */,
+				AF598E05281696AA00DA3589 /* ResultViewController.swift */,
+				AF598E06281696AA00DA3589 /* ApplyFormViewController.swift */,
+			);
+			path = Apply;
+			sourceTree = "<group>";
+		};
+		AF598E07281696AA00DA3589 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AF598E08281696AA00DA3589 /* MemberRegistViewController.swift */,
+				AF598E09281696AA00DA3589 /* MemberAuthViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		AF598E0A281696AA00DA3589 /* RootHome */ = {
+			isa = PBXGroup;
+			children = (
+				AF598E0C281696AA00DA3589 /* RootHome0ViewController.swift */,
+				AF598E0B281696AA00DA3589 /* RootHome1ViewController.swift */,
+			);
+			path = RootHome;
+			sourceTree = "<group>";
+		};
+		AF598E0D281696AA00DA3589 /* ApplyTop */ = {
+			isa = PBXGroup;
+			children = (
+				AF598E0E281696AA00DA3589 /* ApplyUserRuleViewController.swift */,
+				AF598E10281696AA00DA3589 /* ApplyRootTopViewController.swift */,
+				AF598E11281696AA00DA3589 /* ApplyTopViewController.swift */,
+				AF17FE562817B6AC00261AA8 /* CoachingPlan0ViewController.swift */,
+				AF598E12281696AA00DA3589 /* CoachingPlan1ViewController.swift */,
+				AF598E0F281696AA00DA3589 /* CoachingPlan2ViewController.swift */,
+			);
+			path = ApplyTop;
+			sourceTree = "<group>";
+		};
+		AF598E13281696AB00DA3589 /* SideView */ = {
+			isa = PBXGroup;
+			children = (
+				AF598E14281696AB00DA3589 /* MenuTableViewCell.swift */,
+				AF598E16281696AB00DA3589 /* AppRuleViewController.swift */,
+				AF598E17281696AB00DA3589 /* MeetingInfoViewController.swift */,
+				AF598E18281696AB00DA3589 /* ProfileViewController.swift */,
+				AF598E15281696AB00DA3589 /* ProfileEditViewController.swift */,
+				AF598E19281696AB00DA3589 /* CoachListTableViewCell.swift */,
+				AF598E1A281696AB00DA3589 /* CoachListViewController.swift */,
+				AF598E1B281696AB00DA3589 /* MenuViewController.swift */,
+				AF598E1C281696AB00DA3589 /* MeetingInfoTableViewCell.swift */,
+			);
+			path = SideView;
+			sourceTree = "<group>";
+		};
+		AF598E1D281696AB00DA3589 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				AF598E1E281696AB00DA3589 /* ChatFormViewController.swift */,
+				AF598E1F281696AB00DA3589 /* ChatListTableViewCell.swift */,
+				AF598E20281696AB00DA3589 /* ChatListViewController.swift */,
+				AF598E21281696AB00DA3589 /* ChatInputAccessoryView.swift */,
+				AF598E22281696AB00DA3589 /* ChatInputAccessoryView.xib */,
+				AF598E23281696AB00DA3589 /* SelectedChatListTableViewCell.swift */,
+				AF598E24281696AB00DA3589 /* SelectedChatListViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF598DF52816968600DA3589 /* Build configuration list for PBXNativeTarget "RUNSAPP" */;
 			buildPhases = (
+				23893BC14DA043050ED6C106 /* [CP] Check Pods Manifest.lock */,
 				AF598DC72816968500DA3589 /* Sources */,
 				AF598DC82816968500DA3589 /* Frameworks */,
-				AF598DC92816968500DA3589 /* Resources */,
+				817FE7373DFA38E8E73A61AB /* [CP] Embed Pods Frameworks */,
+				6FDC1B1CABF3D5E2B3C6EE1A /* [CP] Copy Pods Resources */,
+				AF9E8B932817B17700D22ED3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -227,16 +409,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF598DC92816968500DA3589 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF598DDB2816968600DA3589 /* LaunchScreen.storyboard in Resources */,
-				AF598DD82816968600DA3589 /* Assets.xcassets in Resources */,
-				AF598DD62816968500DA3589 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AF598DDF2816968600DA3589 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,16 +423,120 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF9E8B932817B17700D22ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E8B942817B18A00D22ED3 /* Main.storyboard in Resources */,
+				AF9E8B952817B18A00D22ED3 /* Assets.xcassets in Resources */,
+				AF9E8B962817B18A00D22ED3 /* LaunchScreen.storyboard in Resources */,
+				AF9E8B972817B18A00D22ED3 /* GoogleService-Info.plist in Resources */,
+				AF9E8B982817B18A00D22ED3 /* RatingViewController.xib in Resources */,
+				AF9E8B992817B18A00D22ED3 /* ChatInputAccessoryView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23893BC14DA043050ED6C106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RUNSAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FDC1B1CABF3D5E2B3C6EE1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RUNSAPP/Pods-RUNSAPP-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RUNSAPP/Pods-RUNSAPP-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RUNSAPP/Pods-RUNSAPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817FE7373DFA38E8E73A61AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RUNSAPP/Pods-RUNSAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RUNSAPP/Pods-RUNSAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RUNSAPP/Pods-RUNSAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF598DC72816968500DA3589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF598E2C281696AB00DA3589 /* MemberRegistViewController.swift in Sources */,
+				AF598E26281696AB00DA3589 /* ApplyListTableViewCell.swift in Sources */,
+				AF598E27281696AB00DA3589 /* ApplyListViewController.swift in Sources */,
+				AF598E2D281696AB00DA3589 /* MemberAuthViewController.swift in Sources */,
+				AF598E3A281696AB00DA3589 /* CoachListTableViewCell.swift in Sources */,
+				AF598E3F281696AB00DA3589 /* ChatListTableViewCell.swift in Sources */,
+				AF598E2B281696AB00DA3589 /* ApplyFormViewController.swift in Sources */,
+				AF598E33281696AB00DA3589 /* ApplyTopViewController.swift in Sources */,
+				AF598E3D281696AB00DA3589 /* MeetingInfoTableViewCell.swift in Sources */,
+				AF598E3C281696AB00DA3589 /* MenuViewController.swift in Sources */,
+				AF598E2F281696AB00DA3589 /* RootHome0ViewController.swift in Sources */,
+				AF598E29281696AB00DA3589 /* SelectedApplyListViewController.swift in Sources */,
+				AF598E38281696AB00DA3589 /* MeetingInfoViewController.swift in Sources */,
+				AF598E2A281696AB00DA3589 /* ResultViewController.swift in Sources */,
+				AF598E30281696AB00DA3589 /* ApplyUserRuleViewController.swift in Sources */,
+				AF17FE572817B6AC00261AA8 /* CoachingPlan0ViewController.swift in Sources */,
+				AF598E34281696AB00DA3589 /* CoachingPlan1ViewController.swift in Sources */,
+				AF598E28281696AB00DA3589 /* SelectedApplyListEditViewController.swift in Sources */,
+				AF598E35281696AB00DA3589 /* MenuTableViewCell.swift in Sources */,
 				AF598DD32816968500DA3589 /* ViewController.swift in Sources */,
+				AF598E39281696AB00DA3589 /* ProfileViewController.swift in Sources */,
 				AF598DCF2816968500DA3589 /* AppDelegate.swift in Sources */,
+				AFB3AC912816AA3C003E2969 /* RatingViewController.swift in Sources */,
+				AF598E2E281696AB00DA3589 /* RootHome1ViewController.swift in Sources */,
+				AF598E43281696AB00DA3589 /* SelectedChatListTableViewCell.swift in Sources */,
+				AF598E3B281696AB00DA3589 /* CoachListViewController.swift in Sources */,
+				AF598E3E281696AB00DA3589 /* ChatFormViewController.swift in Sources */,
+				AF598E40281696AB00DA3589 /* ChatListViewController.swift in Sources */,
+				AF598E41281696AB00DA3589 /* ChatInputAccessoryView.swift in Sources */,
+				AF598E44281696AB00DA3589 /* SelectedChatListViewController.swift in Sources */,
+				AF598E36281696AB00DA3589 /* ProfileEditViewController.swift in Sources */,
 				AF598DD12816968500DA3589 /* SceneDelegate.swift in Sources */,
+				AF598E32281696AB00DA3589 /* ApplyRootTopViewController.swift in Sources */,
+				AF598E37281696AB00DA3589 /* AppRuleViewController.swift in Sources */,
+				AF598E31281696AB00DA3589 /* CoachingPlan2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,26 +708,34 @@
 		};
 		AF598DF62816968600DA3589 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0B4FA03D72FBD0A552FF29 /* Pods-RUNSAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = RUNSAPP/RUNSAPP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UV2U89362H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RUNSAPP/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RUNS;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "コーチングの申込に必要な動画をアップロードします。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = runstech.RUNSAPP;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.runsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = RUNS_20220429;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,26 +744,34 @@
 		};
 		AF598DF72816968600DA3589 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6436BF8281202FDC4409555D /* Pods-RUNSAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = RUNSAPP/RUNSAPP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UV2U89362H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RUNSAPP/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RUNS;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "コーチングの申込に必要な動画をアップロードします。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = runstech.RUNSAPP;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.runsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = RUNS_20220429;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
