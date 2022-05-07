@@ -414,12 +414,12 @@ class ApplyFormViewController: UIViewController,UIImagePickerControllerDelegate,
             let value = snapshot.value as? NSDictionary
             let key0 = value?["teamID"] as? String ?? ""
             let key1 = value?["teamName"] as? String ?? ""
-            selectedTeamID = key0
             if key1 != ""{
-                selectedTeamID = key1
+                selectedTeamID = key0
             }else{
                 selectedTeamID = "runs"
             }
+            selectedTeamName = key1
             let ref = Ref.child("team").child("\(selectedTeamID!)").child("meeting")
             ref.observeSingleEvent(of: .value, with: { [self](snapshot) in
                 self.meetingIDArray.append("")

@@ -238,7 +238,7 @@ class ApplyListViewController: UIViewController,UITableViewDelegate,UITableViewD
         twoDimArray.removeAll()
         twoDimArray_re.removeAll()
         
-        
+//        ①自分の所属Team内のApplyデータを読み込み
         let ref = Ref.child("apply").queryOrdered(byChild: "teamID").queryEqual(toValue: "\(selectedTeamID ?? "")")
         ref.observeSingleEvent(of: .value, with: { [self]
             (snapshot) in
@@ -258,6 +258,7 @@ class ApplyListViewController: UIViewController,UITableViewDelegate,UITableViewD
                     let data5 = snap!["uid"] ?? ""
                     let data6 = snap!["teamID"] ?? ""
                     
+//                    ②コーチは自動的に読み込み、ユーザーは自分のUidと合致したら読み込み
                     if self.adminStatus.text == "コーチ" || data5 as! String == currentUid{
                         array = [data0 as Any,data2 as Any]
                         arrayDataSet(data0: data0 as! String, key: key, snapdata: snapdata)

@@ -90,6 +90,7 @@ class RootHome0ViewController: UIViewController {
                             let snap = snapdata[key]
                             let data = snap!["uid"] ?? ""
                             if data as! String == currentUid{
+                                applyButton.isHidden = true
                                 break
                             }
                             if snap == snapdata[snapdata.keys.sorted().last!]{
